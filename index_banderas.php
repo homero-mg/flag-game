@@ -92,6 +92,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['jugador'])) {
 <div class="caja-inicio">
     <h1>🇪🇺 EUROQUIZ</h1>
     <h1>JUEGAZO DE BANDERAS</h1>
+    <h1>JUEGAZO DE BANDERAS 2</h1>
     <p>¿Cuánto sabes sobre las banderas de Europa? Responde a 5 preguntas para demostrarlo.</p>
     
     <form action="" method="POST">
