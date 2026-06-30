@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS juego_banderas CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE juego_banderas;
+
+CREATE TABLE IF NOT EXISTS ranking (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    jugador VARCHAR(50) NOT NULL,
+    puntuacion INT NOT NULL,
+    fecha_partida TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
